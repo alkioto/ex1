@@ -5,6 +5,9 @@ def xxx():
         ''' Привет! ЁЁЁ """" '''
         pass
     def f2():
+        ''' ####
+        """
+        '''
         print("WWW")
         pass
     return f1,f2
@@ -12,3 +15,4 @@ def xxx():
 a,b = xxx()
 a.__doc__
 b()
+b.__doc__
